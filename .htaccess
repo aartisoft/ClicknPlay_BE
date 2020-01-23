@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^play\.khulasa\-news\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.play\.khulasa\-news\.com$
+RewriteRule ^/?$ "http\:\/\/khulasa\-news\.com\/clickPlayApi\/" [R=301,L]
+
